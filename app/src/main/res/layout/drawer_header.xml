@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/nav"
+    android:layout_height="190dp">
+    
+    
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_alignParentBottom="true"
+     android:layout_marginTop="16dp"
+     android:paddingLeft="16dp"
+     android:paddingBottom="16dp"
+     >
+
+     <ImageView
+         android:layout_width="60dp"
+         android:layout_height="60dp"
+         android:src="@drawable/security"
+         android:layout_marginBottom="16dp"/>
+     
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="30sp"
+         android:textColor="#fff"
+         android:text="Pyrus Malava"
+         android:fontFamily="sans-serif-condensed"/>
+     <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+         android:textColor="#fff"
+     android:textSize="16sp"
+     android:text="py.malava@pyrusoft.com"
+     android:fontFamily="sans-serif"/>
+     
+     
+ </LinearLayout>
+
+</RelativeLayout>
