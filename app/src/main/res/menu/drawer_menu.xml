@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
-    <item
-        android:id="@+id/nav_profile"
-        android:icon="@drawable/ic_profile"
-        android:title="My Profile" />
-    <item
-        android:id="@+id/nav_alerts"
-        android:icon="@drawable/ic_alert"
-        android:title="Info Alerts" />
-    <item
-        android:id="@+id/nav_track"
-        android:icon="@drawable/ic_track_me"
-        android:title="Track Me" />
-    <item
-        android:id="@+id/nav_family"
-        android:icon="@drawable/ic_family"
-        android:title="My Family" />
-    <item
-        android:id="@+id/nav_medical"
-        android:icon="@drawable/ic_medical_profile"
-        android:title="Medical Profile" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_qna"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_tac"
+            android:icon="@drawable/ic_tac"
+            android:title="T &amp; Cs" />
 
-    <item
-        android:id="@+id/nav_other_services"
-        android:icon="@drawable/ic_services"
-        android:title="Our Services" />
-</group>
+    </group>
 
 </menu>

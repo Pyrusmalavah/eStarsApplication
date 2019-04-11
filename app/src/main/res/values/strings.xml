@@ -1,12 +1,78 @@
 <resources>
-    <string name="app_name">pySecurity</string>
+    <string name="app_name">eSTARS</string>
+    <string name="app_full_name">Emergency Security Tracker and Alert Response System</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="Login">Login</string>
-    <string name="register">Register</string>
+    <string name="Login">ESTARS LOGIN</string>
+    <string name="btnlogin">LOGIN</string>
+    <string name="register">ESTARS REGISTRATION</string>
+
+
+    <string name="btnregister">REGISTER</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_maps_API_key">REGISTER</string>
+    <!--PrefConfig file-->
+    <string name="pref_file">com.pyrusoft.pybot.preference_file</string>
+    <string name="pref_login_status">com.pyrusoft.pybot.preference_login_status</string>
+    <string name="pref_email_add">com.pyrusoft.pybot.preference_email_address</string>
+    <string name="pref_first_name">com.pyrusoft.pybot.preference_first_name</string>
+    <string name="pref_second_name">com.pyrusoft.pybot.preference_second_name</string>
+    <string name="pref_mid_name">com.pyrusoft.pybot.preference_middle_name</string>
+    <string name="pref_user_name">com.pyrusoft.pybot.preference_user_name</string>
+    <string name="pref_phyc_address">com.pyrusoft.pybot.preference_physical_address</string>
+    <string name="pref_mob_num">com.pyrusoft.pybot.preference_mobile_number</string>
+    <string name="pref_emg_num">com.pyrusoft.pybot.preference_emergency_number</string>
+
+
+    <string name="title_activity_track">Map</string>
+    <string name="title_activity_alerts">AlertsActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="nav_all">Countrywide</string>
+    <string name="local">MyLocation</string>
+    <string name="nav_fam">MyFamily</string>
+    <string name="nav_want">Wanted</string>
+
+
+    <!--these are title strings-->
+
+    <string name="tac">Terms and Conditions</string>
+    <string name="help">Help</string>
+    <string name="aboutus">About Us</string>
+    <string name="faq">Frequently Asked Questions</string>
+
+
+    <!--these are tac strings-->
+    <string name="term">This system is not responsible for personal misconduct and poor handling of the system, individuals are held responsible</string>
+    <string name="condition">The use of the system alerts is subject to the condition that an emergency has occurred</string>
+    <!--these are about strings-->
+    <string name="about">eSTARS is currently a private system that associates with other stakeholders to provide
+    a secure community by alerting the public and tracking emergency victims</string>
+    <!--these are faq strings-->
+    <string name="faq1">What does eStars mean?</string>
+    <string name="faq1a">Emergency Security Tracker and Alerts Response System</string>
+    <string name="faq2">Is my data secure?</string>
+    <string name="faq2a">eStars ensures that information you provide remains as secure as possible by use of end to end encryption</string>
+    <string name="faq3">How legit is the system</string>
+    <string name="faq3a">The system is as legit as its users,you are strongly advised not to make false alarms</string>
+    <!--these are help strings-->
+    <string name="help1">To make an emergency call, speed dial relevant authorities by using the floating action button at the right bottom corner of the screen</string>
+    <string name="help2">To enable the system to share your location with family members, turn on location services of your device and allow the app to use it</string>
+    <string name="help3">Add your medical records for pre-medical attention preparation, in case of an emergency</string>
+    <!--other layout string values-->
+    <!--drawer header-->
+    <string name="drawer_mail">mail_here@email.com</string>
+    <string name="drawer_fname_hint">FnameHere</string>
+    <string name="drawer_sname_hint">SnamHere</string>
+    <string name="drawer_pic_description">Profile Picture</string>
+
+
 </resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_countrywide"
+        android:icon="@drawable/country_news"
+        android:title="@string/nav_all" />
+    <item
+        android:id="@+id/nav_loc_alerts"
+        android:icon="@drawable/location_news"
+        android:title="@string/local" />
+    <item
+        android:id="@+id/nav_want_persons"
+        android:icon="@drawable/wanted_persons"
+        android:title="@string/nav_want" />
+</menu>

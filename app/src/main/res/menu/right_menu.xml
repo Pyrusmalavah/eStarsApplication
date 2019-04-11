@@ -5,24 +5,23 @@
     tools:Context=".MainActivity">
 
     <item
-        android:id="@+id/settings"
+        android:id="@+id/logout"
         android:orderInCategory="100"
-        android:title="Settings"
-        app:showAsAction="never"/>
+        android:title="Logout"
+        app:showAsAction="never" />
 
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/ic_feedback"
+        android:orderInCategory="200"
+        android:title="Feedback"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/notifications"
-        android:icon="@android:drawable/ic_menu_search"
-        android:title="Search"
-        android:orderInCategory="200"
-        app:showAsAction="ifRoom"/>
-    <item
-        android:id="@+id/user"
-        android:icon="@android:drawable/ic_lock_lock"
+        android:icon="@drawable/ic_notifications"
         android:orderInCategory="300"
         android:title="User"
-        app:showAsAction="ifRoom"/>
-
+        app:showAsAction="ifRoom" />
 
 
 </menu>

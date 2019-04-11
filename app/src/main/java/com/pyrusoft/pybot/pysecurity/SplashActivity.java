@@ -7,22 +7,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
+
+
+import pl.droidsonroids.gif.GifImageView;
 
 public class SplashActivity extends AppCompatActivity {
 
-    private ImageView logo;
-    private static int splashTimeOut = 2000;
+    private GifImageView gifLogo;
+    private static int splashTimeOut = 4000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        logo = (ImageView) findViewById(R.id.logo);
+        gifLogo = (GifImageView) findViewById(R.id.gif_logo);
 
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.splash);
-        logo.startAnimation(myanim);
+        gifLogo.startAnimation(myanim);
 
         new Handler().postDelayed(new Runnable() {
             @Override
